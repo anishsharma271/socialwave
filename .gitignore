@@ -1,0 +1,5 @@
+./socialwave-backend/.env
+./socialwave-frontend/.env
+
+./socialwave-backend/node_modules
+./socialwave-frontend/node_modules

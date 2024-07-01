@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Reset Your SocialWave Password</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <div
+        style="max-width: 480px; margin-left: auto; margin-right: auto; padding: 30px; border-radius: 16px; box-shadow: 0 0 10px 0 rgba(0,0,0,0.15);text-align: center;border: 1px solid #eee;">
+        <table>
+            <thead>
+                <h4 style="font-size:15px;margin-top:0;letter-spacing:4px;margin-bottom: 5px;line-height: 1.1;">Reset Your SocialWave Password</h4>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <!-- <div style="text-align: center"><img src="your-app-logo.png" alt="SocialWave Logo" style="max-width: 100px;"></div> -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3 style="margin-top: 10px;margin-bottom: 0; font-size:25px">Hello <span style="font-weight: bold;"><%= firstName %> <%= lastName %></span></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p style=" margin-top: 10px; margin-bottom: 30px; color: #666; ">Click the link below to reset your SocialWave account password.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="<%= message %>"
+                            style="background: #095075;color: #fff;display: inline-block;border-radius: 6px;padding: 15px;text-decoration: none;max-width: 180px;width: 100%;">Reset Password</a>
+                    </td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        <p style=" margin-bottom: 0; margin-top: 40px; color: #666; ">If that doesn't work, copy and
+                            paste the following link in your browser:</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p style="word-break: break-all;">
+                            <%= message %>
+                        </p>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+
+</html>
